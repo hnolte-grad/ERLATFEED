@@ -39,7 +39,7 @@ warnings.filterwarnings("ignore", category=_mio5.MatReadWarning)
 
 ##################################### MAIN  ########################################
 #----------------------LOAD IN FILES, SET THE ENVIRONMENT -------------------------#
-wdir = "D:\\_research\\dissertation\\1ER-LAT-FEED\\data"
+wdir = "C:\\_temp workspace\\1ER-LAT-FEED\\data"
 os.chdir(wdir)
 
 behavesdir = wdir + '\\tags\\behaves\\'

@@ -26,12 +26,12 @@ def plot_boxplot(dat, xvar,yvar, l, w):
     plt.show()
 
 # feeding rates v. deploment duration
-plot_scatterwithreg(ratedat, 'Daily Pit Rate', yvar='Deployment Duration (dec day)')
-plot_scatterwithreg(ratedat, 'Daily Pit Rate', yvar='TimeInNPS_days')
-plot_scatterwithreg(ratedat, 'Daily Pit Rate', yvar='sumYearsNPS')
-plot_boxplot(ratedat, 'CRC-ID', yvar='Daily Pit Rate', l=16, w=8)
-plot_boxplot(ratedat, 'firstSeen', yvar='Daily Pit Rate', l=16, w=8)
-plot_boxplot(ratedat, 'yn_UMEYear', yvar='Daily Pit Rate', l=8, w=8)
-plot_boxplot(ratedat, 'Sex', yvar='Daily Pit Rate', l=8, w=8)
-plot_boxplot(ratedat, 'depMonth', yvar='Daily Pit Rate', l=8, w=8)
+plot_scatterwithreg(ratedat, 'Tidal Feed Rate', yvar='Dur Tidal Feed Hrs')
+plot_scatterwithreg(ratedat, 'Tidal Feed Rate', yvar='TimeInNPS_days')
+plot_scatterwithreg(ratedat, 'Tidal Feed Rate', yvar='sumYearsNPS')
+plot_boxplot(ratedat, 'CRC-ID', yvar='Tidal Feed Rate', l=16, w=8)
+plot_boxplot(ratedat, 'firstSeen', yvar='Tidal Feed Rate', l=16, w=8)
+plot_boxplot(ratedat, 'yn_UMEYear', yvar='Tidal Feed Rate', l=8, w=8)
+plot_boxplot(ratedat, 'Sex', yvar='Tidal Feed Rate', l=8, w=8)
+plot_boxplot(ratedat, 'depMonth', yvar='Tidal Feed Rate', l=8, w=8)
 

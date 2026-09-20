@@ -1,7 +1,7 @@
 from fontTools.unicodedata import block
 from scipy.ndimage import gaussian_filter1d
 import numpy as np
-import PySimpleGUI as sg
+#import PySimpleGUI as sg
 import matplotlib
 import scipy.io as sio
 import matplotlib.pyplot as plt
